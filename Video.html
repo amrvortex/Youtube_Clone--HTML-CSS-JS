@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VidTube - Video</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/youtube-favicon.png" />
+  <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+  <!-- ************* Nav-bar **************** -->
+  <nav class="flex-div">
+    <!-- ************* Nav-left **************** -->
+    <div class="nav-left flex-div">
+      <a href="#">
+        <img src="images/menu.png" alt="" class="icon menu-icon" style="width: 30px" />
+      </a>
+      <a href="index.html">
+        <img src="images/logo.png" alt="" class="logo" />
+      </a>
+    </div>
+
+    <!-- ************* Nav-Middle **************** -->
+    <div class="nav-middle flex-div">
+      <div class="search-box flex-div">
+        <input type="text" placeholder="Search" />
+        <img src="images/search.png" alt="" />
+      </div>
+      <img src="images/voice-search.png" alt="" class="mic-icon" />
+    </div>
+
+    <!-- ************* Nav-Right **************** -->
+    <div class="nav-right flex-div">
+      <!-- Theme chame button -->
+      <img src="images/dark theme icon/sun.png" alt="" onclick="darkonclick()" class="dark-btn" />
+
+      <img src="images/upload.png" alt="" class="icon" />
+      <img src="images/more.png" alt="" class="icon" />
+      <img src="images/notification.png" alt="" class="icon" />
+      <img src="images/Abstract Design Staring Eye Face Art iPad Air Wallpapers Download.jpg" alt=""
+        class="user-icon icon" />
+    </div>
+  </nav>
+
+  <div class="container play-container">
+    <div class="row">
+      <div class="column-left">
+        <video controls autoplay muted>
+          <source src="images/videoo.mp4" type="video/mp4" />
+        </video>
+        <div class="tags">
+          <a href="">#Coding</a>
+          <a href="">#HTML</a>
+          <a href="">#CSS</a>
+          <a href="">#JavaScript</a>
+        </div>
+        <h3>Best VidTube Channel Ever &#128525;&#128293;</h3>
+        <div class="play-video-info">
+          <p>1500 views &bull; 2 days ago</p>
+          <div class="flex-div">
+            <a href=""><img src="images/like.png" alt="" />125</a>
+            <a href=""><img src="images/dislike.png" alt="" / style="margin-right: 10px; padding-top: 5px;">2</a>
+            <a href=""><img src="images/share.png" alt="" />Share</a>
+            <a href=""><img src="images/save.png" alt="" />Save</a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="publisher">
+          <img src="images/Abstract Design Staring Eye Face Art iPad Air Wallpapers Download.jpg" alt="" />
+          <div>
+            <p>Vortex Channel</p>
+            <span>500k Subscriber</span>
+          </div>
+          <button type="button">Subscribe</button>
+        </div>
+
+        <div class="description">
+          <p>Channel that makes learning easy</p>
+          <p>Subscribe and like please to watch more memes &#128514;&#128514;</p>
+
+          <hr />
+
+          <h4>134 Comments</h4>
+          <div class="add-comment">
+            <img src="images/Abstract Design Staring Eye Face Art iPad Air Wallpapers Download.jpg" alt="" />
+            <input type="text" placeholder="Write a comment..." />
+          </div>
+          <div class="old-comment">
+            <div class="img-container">
+              <img src="images/Abstract Design Staring Eye Face Art iPad Air Wallpapers Download.jpg" alt="" />
+            </div>
+            <div class="comment-container">
+              <h3>Vortex<span>2 days ago</span></h3>
+              <p>This is a meme comment &#128514;&#128514;</p>
+              <div class="comment-action">
+                <img src="images/like.png" alt="" />
+                <span>244</span>
+                <img src="images/dislike.png" alt="" />
+                <span>2</span>
+                <span>Reply</span>
+                <a href="">All replies</a>
+              </div>
+            </div>
+          </div>
+          <div class="old-comment">
+            <div class="img-container">
+              <img src="images/Abstract Design Staring Eye Face Art iPad Air Wallpapers Download.jpg" alt="" />
+            </div>
+            <div class="comment-container">
+              <h3>Vortex<span>2 days ago</span></h3>
+              <p>This is a meme comment &#128514;&#128514;</p>
+              <div class="comment-action">
+                <img src="images/like.png" alt="" />
+                <span>244</span>
+                <img src="images/dislike.png" alt="" />
+                <span>2</span>
+                <span>Reply</span>
+                <a href="">All replies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column-right">
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/mortal_kombat_x___scorpio-wallpaper-1920x1080.jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/2029165 (1).jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/917648.jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/2545282.jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/2638315.jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/2637581.jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/spider_man_selfie-wallpaper-1920x1080.jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-video-list">
+          <a class="small-thumbnail">
+            <img src="images/batman_17-wallpaper-1920x1080.jpg" alt="" />
+          </a>
+          <div class="video-info">
+            <a href="">This is an Awesome Video &#128536;</a>
+            <div>
+              <p>Vortex Channel</p>
+              <p>15k views 2 days</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
